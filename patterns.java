@@ -159,14 +159,14 @@ class patterns {
     }
 
     public static void main(String[] args) {
-        // Hollow_Pattern(4, 5);
-        // inverted_pyramid(10);
-        // inverted_pyramind_no(5);
-        // floyds_Triangle(5);
-        // zero_one_Triangle(5);
-         //Butterfly(15);
-        //Solid_Rohmbus(5);
-       // Hollow_Rohmbus(5);
-        Diamond(5);
+    //     Hollow_Pattern(4, 5);
+    //     inverted_pyramid(10);
+    //     inverted_pyramind_no(5);
+    //     floyds_Triangle(5);
+    //     zero_one_Triangle(5);
+    //      Butterfly(15);
+    //     Solid_Rohmbus(5);
+    //    Hollow_Rohmbus(5);
+    //     Diamond(5);
     }
 }
