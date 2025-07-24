@@ -1,4 +1,4 @@
-public class CountingSort {
+public class Counting {
     public static void Counting_Sort(int array[]){
         int largest = Integer.MIN_VALUE;
         for(int i = 0;i<array.length;i++){
