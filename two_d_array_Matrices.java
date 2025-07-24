@@ -1,6 +1,17 @@
 import java.util.*;
 
 public class two_d_array_Matrices {
+    public static void Largest_no(int array[][]){
+    int largest  = Integer.MIN_VALUE;
+    for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[0].length; j++) {
+               largest = Math.max(largest, array[i][j]);
+            }
+
+        }
+        System.out.println("Largest number in the array is - " + largest);
+
+}
     public static boolean Search(int array[] [], int key) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[0].length; j++) {
@@ -34,7 +45,9 @@ public class two_d_array_Matrices {
 
         }
         Search(array, 9);
+        Largest_no(array);
         sc.close();
+
     }
 
 }
