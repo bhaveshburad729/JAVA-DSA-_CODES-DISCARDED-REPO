@@ -4,7 +4,7 @@ public class bubble_sort {
         for (int turn = 0; turn < n - 1; turn++) {
             int swap = 0;
             for (int j = 0; j < n - 1 - turn; j++) {
-
+                
                 if (array[j] > array[j + 1]) {
                     int temp = array[j];
                     array[j] = array[j + 1];
